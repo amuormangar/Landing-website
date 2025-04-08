@@ -142,6 +142,7 @@ margin-left: 300px;
 }
 .logos{
     display: flex;
+    align-content: center;
 }
 #gap{
     width: 100px;
@@ -167,4 +168,47 @@ margin-left: 300px;
     margin-left: 200px;
     width: 70%;
 }
+.project{
+    color:black;
+    display: inline;
+    position: relative;
+    background-color: aliceblue;
+    text-align: center;
+    
+}
+.project h1{
+    text-align: center;
+}
+.map{
+    position: relative;
+    z-index: 1;
+}
+.rectangle-contact{
+
+    display: inline;
+    width: 200px;
+    height: 200px;
+    background-color:white;
+    font-size: 10px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    z-index: -1;
+
+}
+
+.footer{
+    display: flex;
+    width: 160%;
+    height: 190%;
+    margin-top: 100px;
+    background-color: rgb(6, 9, 27);
+    color: antiquewhite;
+    gap: 50px;
+    font-size: 15px;
+}
+.rasi{
+    width: 10%;
+}
+
+
 
